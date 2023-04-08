@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "StratosSkyeng";
+  src: url(../fonts/StratosSkyeng.woff);
+  src: url(../fonts/StratosSkyeng.woff2);
+}
+.center {
+  padding-left: calc(50% - 580px);
+  padding-right: calc(50% - 580px);
+}
+
+body {
+  font-family: "StratosSkyeng";
+}
+
+.top {
+  background: #AD61FF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.top__header {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */
