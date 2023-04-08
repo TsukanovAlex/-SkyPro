@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    border: 1px solid #000;
 }
 
 a {
@@ -15,8 +16,8 @@ a {
 }
 
 .center {
-    padding-left: calc(50% - 580px);
-    padding-right: calc(50% - 580px);
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
 }
 
 body {
@@ -28,8 +29,80 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    color: #FFFFFF;
+
 
     &__header {
         display: flex;
+        padding-top: 12px;
+    }
+
+    &__logo {
+        padding-right: 162px;
+    }
+
+    &__progress-box {
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+        font-size: 68px;
+        line-height: 100%;
+        letter-spacing: -0.6px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #FFFFFF;
+
+        &_vector {
+            height: 33px;
+        }
+    
+    }
+
+    &__subtitle {
+        font-weight: 400;
+        font-size: 68px;
+        line-height: 100%;
+        letter-spacing: -0.6px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #FFFFFF;
+        padding-top: 63px;
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 260px;
+        line-height: 60%;
+        letter-spacing: -0.6px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #FFFFFF;
+    }
+
+    &__prodress-box {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 43px;
+        font-weight: 400;
+        font-size: 68px;
+        line-height: 100%;
+        letter-spacing: -0.6px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #FFFFFF;
+
+    }
+}
+
+.nav {
+    display: flex;
+    gap: 24px;
+
+    &__link {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: -0.05px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #FFFFFF;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
     }
 }
